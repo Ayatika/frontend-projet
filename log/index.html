@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-panel">
+            <div class="logo">Loginfo</div>
+            <form id="loginForm">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                
+                <button type="submit">Sign In</button>
+                
+                <div class="register">
+                    Not registered yet? <a href="#">Create account</a>
+                </div>
+            </form>
+        </div>
+        <div class="right-panel">
+            <h2>Welcome Back to Techland</h2>
+            <p>Please login to your account to access all of your information.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

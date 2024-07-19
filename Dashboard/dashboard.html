@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">Loginfo</div>
+             <p class="logo1"><span clas="menu1">&#9776</span></p>
+            <nav>
+                <ul>
+                    <li><a href="#" class="icon-a"><i class="fa fa-tachometer icons"></i>&nbsp;&nbsp;Dashboard</a></li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-user icons"></i>&nbsp;&nbsp;Employee</a></li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-list-alt icons"></i>&nbsp;&nbsp;Tasks</a>
+                    </li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-list icons"></i>&nbsp;&nbsp;Document</a>
+                    </li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-user icons"></i>&nbsp;&nbsp;Accounts</a></li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-cogs icons"></i>&nbsp;&nbsp;Settings</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="logout">Log out</div>
+
+        
+        <main class="main-content">
+            <div class="top-bar">
+                <div class="summary">
+                    <h2>Summary</h2>
+                </div>
+                <div class="export-data">
+                    <button id="exportDataButton">Export Data</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="calendar fixed-calendar">
+        <h2>Upcoming Schedule</h2>
+        <div class="calendar-dates" id="calendarDates">
+            <div> 14 SUN</div>
+            <div>15 MON</div>
+            <div >16 TUE</div>
+            <div>17WED</div>
+            <div class="active-date">18 THU</div>
+            <div>19 FRI</div>
+            <div>20 SAT</div>
+        </div>
+    </div>
+<script src="https://ajax.gogleapis.com/ajax/libs/jpquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

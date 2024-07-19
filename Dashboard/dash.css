@@ -1,0 +1,182 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #485975;
+}
+.log1{
+  margin: 0px;
+  margin-left: px;
+  font-weight: bold;
+  color: #151414;
+  display: none;
+  cursor: pointer;
+}
+.menu1{
+  float: left;
+  display: none;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 20px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1460e4;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a .icons {
+  margin-right: 10px;
+  font-size: 20px; /* Increase the icon size */
+}
+
+nav ul li a:hover {
+  background-color: #1460e4;
+  color: #fff;
+}
+
+.logout {
+  color: #151414;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.logout:hover {
+  background-color: #f8d7da;
+  color: #080808;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.summary h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.export-data button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.export-data button:hover {
+  background-color: #0056b3;
+}
+
+.calendar {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.calendar h2 {
+  margin-top: 0;
+  font-size: 17px;
+}
+
+.calendar-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.calendar-dates div {
+  padding: 5px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1 1 30%;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.calendar-dates div:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.calendar-dates .active-date {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.fixed-calendar {
+  position: fixed;
+  top: 60px;
+  right: 10px;
+  width: 150px;
+  background-color: #fff;
+}
+
+.icons {
+  font-size: 5px;
+}
+
+.icon-a {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.icon-a:hover {
+  background-color: #b5cfe6;
+  color: #fff;
+}
