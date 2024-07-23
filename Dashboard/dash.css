@@ -122,12 +122,12 @@ nav ul li a:hover {
 
 .summary {
   display: flex;
-  justify-content: center; /* Centre horizontalement */
-  align-items: center; /* Centre verticalement */
-  text-align: center; /* Centre le texte à l'intérieur du conteneur */
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
   flex: 1;
-  height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur disponible */
-  width: 100%; /* Assurez-vous que le conteneur prend toute la largeur disponible */
+  height: 100%; 
+  width: 100%; 
 }
 
 
