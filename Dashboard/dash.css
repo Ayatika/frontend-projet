@@ -1,9 +1,9 @@
-
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
 
 .container {
   display: flex;
@@ -12,39 +12,43 @@ body {
 
 .sidebar {
   width: 200px;
-  background-color: #ffffff;
+  background-color: #fffefe;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
 }
-
 .logo-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 20px;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #0f3f8d;
+  color: #4b4b4b;
+}
+
+.logo img {
+  width: 40px; 
+  height: 50px; 
   margin-right: 10px;
+  display: block;
 }
 
 .logo1 {
-  margin: 0;
+  margin-left: auto;
   font-weight: bold;
   color: #151414;
-  display: block;
   cursor: pointer;
 }
 
 .menu1 {
   display: block;
 }
-
 
 
 nav ul {
@@ -69,7 +73,7 @@ nav ul li a {
 
 nav ul li a .icons {
   margin-right: 10px;
-  font-size: 20px; /* Increase the icon size */
+  font-size: 20px;
 }
 
 nav ul li a:hover {
@@ -102,24 +106,31 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #fffefe;
   padding-bottom: 10px;
   position: fixed;
   top: 0; 
   left: 50%; 
   transform: translateX(-50%);
   width: 80%; 
-  background-color: #fff; 
+  background-color: #f9f9f9; 
   z-index: 1000; 
   padding: 0 20px;
-  height: px; /* Increase the height of the top-bar */
+  height: px; 
  
 }
 
 .summary {
-  flex: 1; 
-  text-align: center;
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  text-align: center; /* Centre le texte à l'intérieur du conteneur */
+  flex: 1;
+  height: 100%; /* Assurez-vous que le conteneur prend toute la hauteur disponible */
+  width: 100%; /* Assurez-vous que le conteneur prend toute la largeur disponible */
 }
+
+
 
 
 .export-data {
@@ -208,6 +219,6 @@ nav ul li a:hover {
 }
 
 .icon-a:hover {
-  background-color: #b5cfe6;
+  background-color: #336ea1;
   color: #fff;
 }

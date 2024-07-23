@@ -32,3 +32,13 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Export Data functionality not implemented yet.');
     });
 });
+document.addEventListener("DOMContentLoaded", function() {
+  const logoutButton = document.getElementById('logoutButton');
+  if (logoutButton) {
+      logoutButton.addEventListener('click', function(event) {
+          event.preventDefault();
+          window.location.href = "../log/index.html";
+      });
+  }
+});
+
