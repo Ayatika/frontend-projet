@@ -11,41 +11,41 @@ body {
 
 .login-container {
     display: flex;
-    justify-content: center; /* Centrer horizontalement */
-    align-items: center; /* Centrer verticalement */
+    justify-content: center; 
+    align-items: center; 
     width: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    background-color: #ffffff; /* Ajouté pour un fond blanc */
+    background-color: #ffffff;
 }
 
 .left-panel {
     padding: 40px;
-    width: 50%; /* Prendre toute la largeur de login-container */
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; /* Centrer le contenu à l'intérieur */
+    align-items: center;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
-    text-align: center; /* Centrer le texte du logo */
+    text-align: center; 
 }
 
 form {
     display: flex;
     flex-direction: column;
-    width: 100%; /* Prendre toute la largeur de left-panel */
-    align-items: center; /* Centrer les éléments du formulaire */
+    width: 100%;
+    align-items: center; 
 }
 
 label {
     margin-bottom: 5px;
     color: #333;
-    align-self: flex-start; /* Aligner les labels à gauche */
+    align-self: flex-start; 
 }
 
 input[type="email"],
@@ -53,9 +53,9 @@ input[type="password"] {
     margin-bottom: 15px;
     padding: 10px;
     border: 1px solid #cac2c2;
-    border-radius: 25px; /* Bordures arrondies */
+    border-radius: 25px; 
     font-size: 16px;
-    width: 100%; /* Prendre toute la largeur du formulaire */
+    width: 100%; 
 }
 
 .options {
@@ -63,7 +63,7 @@ input[type="password"] {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-    width: 100%; /* Prendre toute la largeur du formulaire */
+    width: 100%;
 }
 
 .options a {
@@ -80,10 +80,10 @@ button {
     background-color: #007bff;
     border: none;
     color: white;
-    border-radius: 25px; /* Bordures arrondies */
+    border-radius: 25px; 
     cursor: pointer;
     font-size: 16px;
-    width: 100%; /* Prendre toute la largeur du formulaire */
+    width: 100%; 
 }
 
 button:hover {
@@ -93,7 +93,7 @@ button:hover {
 .register {
     margin-top: 20px;
     font-size: 14px;
-    text-align: center; /* Centrer le texte du registre */
+    text-align: center; 
 }
 
 .register a {
