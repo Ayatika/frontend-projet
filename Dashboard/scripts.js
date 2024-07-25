@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (logoutButton) {
       logoutButton.addEventListener('click', function(event) {
           event.preventDefault();
-          window.location.href = "../log/index.html";
+          window.location.href = "../index.html";
       });
   }
   const calendarDates = document.getElementById('calendarDates');
