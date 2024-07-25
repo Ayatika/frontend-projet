@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (loginForm) {
         loginForm.addEventListener('submit', function(event) {
             event.preventDefault();
-            window.location.href = "./dashboard/dashboard.html";
+            window.location.href = "./Dashboard/Dashboard.html";
         });
     }
 });
