@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="dash.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
-
-
 </head>
 <body>
-        <nav class="sidebar close">
+    <div class="container">
+        <nav class="sidebar">
             <header>
                 <div class="logo-container">
                     <div class="logo">
-                        <img src="logo.png"alt="Logo" class="logo-image"> 
-
+                        <img src="logo.png" alt="Logo" class="logo-image">
                     </div>
                     <p class="logo1"><span class="menu1">&#9776;</span></p>
                 </div>
@@ -25,47 +23,39 @@
                 <ul>
                     <li><a href="#" class="icon-a"><i class="fa fa-tachometer icons"></i>&nbsp;&nbsp;Dashboard</a></li>
                     <li><a href="#" class="icon-a"><i class="fa fa-user icons"></i>&nbsp;&nbsp;Employee</a></li>
-                    <li><a href="#" class="icon-a"><i class="fa fa-list-alt icons"></i>&nbsp;&nbsp;Tasks</a>
-                    </li>
-                    <li><a href="#" class="icon-a"><i class="fa fa-list icons"></i>&nbsp;&nbsp;Document</a>
-                    </li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-list-alt icons"></i>&nbsp;&nbsp;Tasks</a></li>
+                    <li><a href="#" class="icon-a"><i class="fa fa-list icons"></i>&nbsp;&nbsp;Document</a></li>
                     <li><a href="#" class="icon-a"><i class="fa fa-user icons"></i>&nbsp;&nbsp;Accounts</a></li>
-                    <li><a href="#" class="icon-a"><i class="fa fa-cogs icons"></i>&nbsp;&nbsp;Settings</a>
-                    </li>
-
+                    <li><a href="#" class="icon-a"><i class="fa fa-cogs icons"></i>&nbsp;&nbsp;Settings</a></li>
                 </ul>
-
             </nav>
             <div class="logout">
                 <button id="logoutButton">Logout</button>
-
             </div>
-    </nav>
-        
-        <main class="main-content">
-            <div class="top-bar">
-                <div class="summary">
-                    <h2>Summary</h2>
-                </div>
-                <div class="export-data">
-                    <button id="exportDataButton">Export Data</button>
-                </div>
-            </div>
-        </main>
-    </div>
-    <div class=" fixed-calendar">
-        <h2>Upcoming Schedule</h2>
-        <div class="calendar-navigation">
-            <button id="prevWeekButton">&lt; </button>
-            <span id="calendarTitle"></span>
-            <button id="nextWeekButton"> &gt;</button>
-        </div>
-        <div class="calendar-dates" id="calendarDates"></div>
-    </div>
+        </nav>
     
+        <div class="top-bar">
+            <div class="summary">
+                <h2>Summary</h2>
+            </div>
+            <div class="export-data">
+                <button id="exportDataButton">Export Data</button>
+            </div>
+        </div>
+        
+        <div class="fixed-calendar">
+            <h2>Upcoming Schedule</h2>
+            <div class="calendar-navigation">
+                <button id="prevWeekButton">&lt;</button>
+                <span id="calendarTitle"></span>
+                <button id="nextWeekButton">&gt;</button>
+            </div>
+            <div class="calendar-separator"></div>
+            <div class="calendar-dates" id="calendarDates"></div>
+        </div> 
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>

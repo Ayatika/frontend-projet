@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
       logoutButton.addEventListener('click', function(event) {
           event.preventDefault();
           window.location.href = "../index.html";
+          
       });
   }
   const calendarDates = document.getElementById('calendarDates');
