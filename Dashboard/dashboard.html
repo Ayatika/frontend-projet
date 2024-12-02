@@ -33,7 +33,7 @@
                 <button id="logoutButton">Log out</button>
             </div>
         </nav>
-    
+
         <div class="top-bar">
             <div class="summary">
                 <h2>Summary</h2>
@@ -43,6 +43,53 @@
             </div>
         </div>
         
+        <div class="dashboard">
+            <div class="metrics">
+                <div class="metric">
+                    <h3>Total Employees</h3>
+                    <p>1,409 <span style="color: green;">↑ 23%</span></p>
+                    <small>13 applications need review</small>
+                </div>
+                <div class="metric">
+                    <h3>Total Overtime</h3>
+                    <p>569 <span style="color: green;">↑ 13%</span></p>
+                    <small>103 overtime schedules need approval</small>
+                </div>
+                <div class="metric">
+                    <h3>Total Leave</h3>
+                    <p>103 <span style="color: red;">↓ 3%</span></p>
+                    <small>98 paid leave plans need approval</small>
+                </div>
+            </div>
+        
+            <div class="time-off-statistics">
+                <h3>Time Off Statistics</h3>
+                <canvas id="timeOffChart" width="400" height="200"></canvas>
+            </div>
+        
+            <div class="employee-ranks">
+                <h3>Employee Ranks</h3>
+                <div class="employee">
+                    <img src="avatar1.png" alt="Vio D. Primadona">
+                    <div>
+                        <h4>Vio D. Primadona</h4>
+                        <p>UI Designer</p>
+                        <p>Full-time — Remote</p>
+                        <p><strong>103 tasks</strong> finished this month.</p>
+                    </div>
+                </div>
+                <div class="employee">
+                    <img src="avatar2.png" alt="Opet Geming">
+                    <div>
+                        <h4>Opet Geming</h4>
+                        <p>UI Designer</p>
+                        <p>Full-time — On-site</p>
+                        <p><strong>88 tasks</strong> finished this month.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
         <div class="fixed-calendar">
             <h2>Upcoming Schedule</h2>
             <div class="calendar-navigation">
@@ -57,5 +104,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts.js"></script>
+   
 </body>
 </html>
